@@ -1,12 +1,24 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
 
 
 /* CSS Reset */
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
 
 /* Variables */
 
 :root {
-   
+   --cardBG: #FFFFFF;
+   --mainBG: #F2EAE2;
+   --leadFontColor: #1C232B;
+   --secondaryFontColor: #6C7289;
+   --btnMainColor: #3D8168;
+   --btnMainActive: #1A4032;
+   --leadFont: 'Fraunces', serif;
+   --secondaryFont: 'Montserrat', sans-serif;
 }
 
