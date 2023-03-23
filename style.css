@@ -22,3 +22,155 @@
    --secondaryFont: 'Montserrat', sans-serif;
 }
 
+main {
+    height: 100vh;
+    width: 100vw;
+    min-width: 375px;
+    background-color: var(--mainBG);
+}
+
+.contentContainer {
+    max-width: 1440px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.productCard {
+    max-width: 343px;
+    max-height: 611px;
+    height: 100%;
+    background-color: var(--cardBG);
+    border-radius: 10px;
+}
+
+.productImg {
+    width: 100%;
+    height: 40%;
+}
+
+.productImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.productDescription {
+    height: 60%;
+}
+
+.descriptionContainer {
+    padding: 2rem;
+}
+
+.descriptionContainer h1 {
+    color: var(--secondaryFontColor);
+    font-family: var(--secondaryFont);
+    font-weight: 500;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.descriptionContainer h2 {
+    color: var(--leadFontColor);
+    font-family: var(--leadFont);
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.descriptionContainer p {
+    color: var(--secondaryFontColor);
+    font-family: var(--secondaryFont);
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.pricing {
+    display: flex;
+    
+}
+
+.pricing .currentPrice {
+    color: var(--btnMainColor);
+    font-family: var(--leadFont);
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.pricing .oldPrice {
+    text-decoration: line-through;
+}
+
+.btnMain {
+    color: var(--mainBG);
+    background-color: var(--btnMainColor);
+    width: 100%;
+    padding: 1rem;
+    font-family: var(--secondaryFont);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnMain img {
+    margin-right: .8rem;
+}
+
+@media screen and (min-width: 601px) {
+    .productCard {
+        width: 100%;
+        height: 100%;
+        max-width: 600px;
+        max-height: 450px;
+        display: flex;
+    }
+
+    .productImg {
+        width: 50%;
+        height: 100%;
+    }
+
+    .productImg img {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .productDescription {
+        width: 50%;
+        height: 100%;
+        padding: .2rem
+    }
+
+    .productDescription h1 {
+        margin-bottom: 1.2rem;
+    }
+
+    .productDescription h2 {
+        font-size: 2.3rem;
+        line-height: 2.4rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .productDescription p {
+        margin-bottom: 2.2rem;
+    }
+
+    .pricing {
+        margin:
+    }
+    .pricing .currentPrice {
+        font-size: 2.2rem;
+    }
+
+
+    
+}
+
+
